@@ -9,8 +9,10 @@ W = 1920//2
 H = 1080//2
 disp = Display(W,H)
 
-F = 1
+F = 370
+
 K = np.array([[F,0,W//2],[0,F,H//2],[0,0,1]])
+print(K)
 # using W//3.9 and H//1.2 works
 #K = np.array([[F,0,0],[0,F,0],[0,0,1]])
 
